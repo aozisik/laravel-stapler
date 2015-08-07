@@ -13,8 +13,10 @@ return [
     |
     */
     's3_client_config' => [
-        'key' => '',
-        'secret' => '',
+        'credentials' => [
+            'key' => '',
+            'secret' => ''
+        ],
         'region' => '',
         'scheme' => 'http'
     ],
